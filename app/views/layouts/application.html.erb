@@ -11,6 +11,10 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg bg-secondary">
+    <%= link_to "Home", root_path, class: "btn btn-primary"%>
+    <%= link_to "Add Restaurant", new_restaurant_path, class: "btn btn-primary"%>
+    </nav>
     <%= yield %>
   </body>
 </html>
